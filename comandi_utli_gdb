@@ -1,0 +1,49 @@
+per una comoda visulizzazione gdb -tui
+add -g durante compilazione per poter usare bdb
+b nome funzione aggiunge un break point alla funzione 
+layout next mostra le prossime istruzioni da eseguire 
+info locals mostra lo stato delle librerie
+backtrace per visualizzare lo stack delle chiamate fino alla funzione corrente
+Ecco alcuni comandi utili per utilizzare GDB in modo efficace durante il debug del tuo programma:
+
+1. **break [nome_funzione]**: Imposta un punto di interruzione in una funzione specifica. Puoi anche specificare un numero di linea come argomento per impostare un punto di interruzione in una posizione specifica nel codice sorgente.
+
+2. **break [numero_linea]**: Imposta un punto di interruzione su una linea specifica del codice sorgente.
+
+3. **info breakpoints**: Mostra una lista di tutti i punti di interruzione impostati.
+
+4. **delete [numero_punto_interruzione]**: Elimina un punto di interruzione specifico in base al suo numero.
+
+5. **run [argomenti]**: Avvia il programma in debug con GDB. Puoi specificare gli argomenti del programma come se lo stessi eseguendo normalmente.
+
+6. **continue**: Continua l'esecuzione del programma fino al raggiungimento del prossimo punto di interruzione.
+
+7. **next**: Esegue la riga corrente del programma e si ferma sulla riga successiva, ma evita di entrare nelle funzioni invocate.
+
+8. **step**: Esegue la riga corrente del programma e si ferma all'interno delle funzioni invocate, consentendoti di entrare nelle funzioni e esaminare il loro stato.
+
+9. **finish**: Esegue il programma fino al termine della funzione corrente e si ferma prima di ritornare alla funzione chiamante.
+
+10. **list [nome_funzione]**: Mostra il codice sorgente della funzione specificata.
+
+11. **info locals**: Mostra le variabili locali della funzione corrente.
+
+12. **info args**: Mostra gli argomenti delle funzioni e i loro valori.
+
+13. **print [espressione]**: Valuta e visualizza il valore di un'espressione.
+
+14. **backtrace**: Mostra lo stack delle chiamate delle funzioni attualmente in esecuzione.
+
+15. **frame [numero_frame]**: Seleziona un frame specifico nello stack delle chiamate. Utile quando si vuole esaminare lo stato di una chiamata di funzione precedente.
+
+16. **info threads**: Mostra la lista dei thread nel programma multithread.
+
+17. **thread [numero_thread]**: Seleziona un thread specifico per il debug.
+
+18. **set variable [nome_variabile]=[valore]**: Modifica il valore di una variabile durante l'esecuzione del programma.
+
+19. **display [espressione]**: Mostra il valore di un'espressione in ogni interruzione, utile per il monitoraggio continuo delle variabili.
+
+20. **quit**: Esce da GDB e termina il debug del programma.
+
+Questi sono solo alcuni dei comandi più comuni e utili in GDB. GDB offre molte altre funzionalità avanzate, quindi consulta la documentazione di GDB per ulteriori dettagli sui comandi e sulle capacità di debug. Puoi accedere alla guida di GDB digitando `help` in GDB o 

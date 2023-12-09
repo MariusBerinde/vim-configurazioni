@@ -1,0 +1,45 @@
+1. per spostarsi velocemente sopra usa ctrl+u e per farlo sotto ctrl+u
+2. per centrale la visuale usa zz 
+3. per fare un vertical split :vs
+4. per fare uno split orizzontale :sp
+5. per scambiare gli spit ctrl+w+r 
+6. per lanciare un termilale nella finestra :vs | :terminal
+7.  per incrementare un valore numerico CTRL-a
+8.  per decrementare un valore numerico CTRL-x
+9.  per incrementare/decrementare un valore numerico in visual mode g CTRL-a
+10. gj and gk : Move cursor up and down to wrapped part of a line as if it is a different line. 
+11. g0 and g$ : Same as previous but move cursor to the first and last letter of a wrapped line. 
+12. gq : Turn a long line into multiple lines. 
+13. gu and gU : Uncapitalize and capitalize words/lines. 
+14. ~ and g~ : Switch capitalization of a letter. 
+15. gf : Open highlighted text as file. 
+16. gv : Reselecting previous selected text. 
+17. gJ : Conjoining lines without leaving spaces. 
+18. g& : Rerun substitute command for all lines.
+19. earlier 10m  fa tornare il file a com'era 10 minuti fa (funziona anche con h) 
+20. later 10m operazione opposta di earlier 
+21. g- corrisponde a u
+22. g+ annulla g-
+23. ctrl+w > aumenta il corrente split di 1px
+24. ctrl+w < diminusice il corrente split di 1px
+25. ctrl+w = fa diventare gli split della stessa dimensione
+26. ctrl+o per tornare al file da cui sei venuto
+27. in insert mode per eseguire un comando ctrl+o comando da eseguire
+28. shift+l mette il cursore nella parte bassa dello schermo
+29. shift+h mette il cursore nella parte alta dello schermo
+30. shift+m mette il cursore nella parte media dello schermo
+32. ctrl+u mette il cursore nella metà dello schermo
+33. ctrl+d mette il cursore in fondo allo schermo
+34. = serve per identare per esempio =G da inizio file indenta correttamente tutto il file
+35. ctrl+c è equivalente a <esc>
+36. di) cancella tra () , di" cancella tra ""
+37. yi) copia tra () , yi" copia tra ""
+38. xp inverte il carattere attuale con quello successivo
+40. D equivalente di d$ 
+41. Y equivalente di y$ 
+42. I equivalente di 0
+43. A equivalente di $
+44. ctrl+n attiva l'autocompletamento
+45. >> indenta 
+
+ls

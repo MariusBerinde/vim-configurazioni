@@ -1,0 +1,11 @@
+Per installare un plug-in
+1. vim ~/.vimrc
+2. Plug 'plugin'
+3. in vim :PlugInstall
+
+
+Per disinstallare 
+1. vim ~/.vimrc
+2. cancella riga Plug 'plugin da cancellare'
+3. cancellare:source ~/.vimrc)
+4.  :PlugClean

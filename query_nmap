@@ -1,0 +1,81 @@
+  nmap -A 10.10.12.160
+  nmap -sS 10.10.12.160
+  nmap -O 10.10.12.160
+  nmap -A 10.10.12.160
+  nmap --scrips vuln 10.10.12.160
+  nmap --scrip vuln 10.10.12.160
+  nmap --script vuln 10.10.12.160
+  nmap 10.10.12.0/24
+  nmap 10.10.12.0/24
+  nmap -v 10.10.12.0/24
+  nmap -sS -Ox stato_rete.txt 10.10.12.0/24
+  nmap -sS -O -x stato_rete.txt 10.10.12.0/24
+  nmap -sS -O -oN stato_rete.txt 10.10.12.0/24
+  nmap -sS --script vuln 10.10.12.217
+  nmap -sS --script vuln 10.10.12.160
+  nmap -sS --script vuln 10.10.12.144
+  nmap -sS --script vuln 10.10.12.149
+  nmap -p 22 10.10.12.149
+  nmap -p 23 10.10.12.149
+  nmap -p 80 10.10.12.149
+  nmap -p 1022 10.10.12.149
+  nmap -T4 -v 10.10.12.149
+  nmap -T4 -v 10.10.12.144
+  nmap -top-ports 10.10.12.217
+  nmap -n -sn -PE -T4 10.10.12.0/24
+  nmap -vv -n -sn -PE -T4 --packet-trace 10.10.12.144/24
+  nmap -vv -n -sn -PE -T4 --packet-trace 10.10.12.144/24 > tracciamento
+  nmap -vv -n -sn -PE -T4 --packet-trace 10.10.12.160
+  nmap -vv -n -sn -PE -T4 --packet-trace 10.10.12.160 -p 9090
+  nmap -vv -n -sn -PE -T4 10.10.12.160 -p 9090
+  nmap -T4 -A -p 9090 10.10.12.160
+  nmap -p 9090 10.10.12.160
+  nmap -p0-65535 10.10.12.160
+  nmap -p0-65535 10.10.12.144
+  nmap -mtu 8 10.10.12.144
+  nmap -mtu 210.10.12.144
+  nmap -mtu 2 10.10.12.144
+  nmap -mtu 6 10.10.12.144
+  nmap -mtu 16 10.10.12.144
+  nmap -D RND:12 10.10.12.144
+  nmap -f10.10.12.144
+  nmap -f 10.10.12.144
+  nmap -f -p- 10.10.12.144
+  nmap -sU -p- 10.10.12.144
+  nmap -sU -p- 10.10.12.144 --min-parallelism=50 --max-parallelism=150 -PN -T2
+  nmap -sS -p- -A -v 10.10.12.0/24 -oN scan_all
+  nmap scan report 10.10.12.0/24
+  nmap --scan --report 10.10.12.0/24
+  nmap --scan report 10.10.12.0/24
+  nmap -sT 10.10.12.0/24
+  nmap -open 10.10.12.0/24
+  nmap -sV 10.10.12.0/24
+  nmap -sT -p- 10.10.12.0/24
+  nmap -sO -p- 10.10.12.0/24
+  nmap -sO -p- 10.10.12.144 -T1
+  nmap -sI 10.10.12.217
+  nmap -sP 10.10.12.0/24
+  nmap -mtu 16 10.10.12.0/24
+  nmap -sS -T5 10.10.12.144 --script firewall-bypass~
+  nmap -sS -T5 10.10.12.144 --script firewall-bypass
+  nmap -sS -T5 10.10.12.144 --script kali
+  nmap -sn -PE 10.10.12.144
+  nmap -sX 10.10.12.144
+  nmap -p- -sS -A 10.10.12.0/24 -v -oN scan_subnet_ss_pn.txt
+  nmap –script vulners 10.10.12.0/24
+  nmap –script vulners 10.10.12.144
+  nmap -script vulners 10.10.12.0/24
+  nmap -sT vulners 10.10.12.0/24
+  nmap -sT -A 10.10.12.0/24
+  nmap -p- -sS -sT -A 10.10.12.144/24 -v
+  nmap -p- -sT -A 10.10.12.144/24 -v
+  nmap -p- -n -sT -A 10.10.12.144/24 -v
+  nmap -p- -n -sV 10.10.12.144/24 -v
+  nmap -p- -n -sV 10.10.12.144 -v
+  nmap -p- -n -sV -A 10.10.12.144 -v
+  history | grep nmap
+  cp /usr/share/nmap/nselib/data/passwords.lst ./nmap_password.lst\n
+  hidra -s 4322 -V -l root -P /home/kali/Desktop/analis_esame/nmap_password.lst -t 32 10.10.10.149 ssh
+  hydra -s 4322 -V -l root -P /home/kali/Desktop/analis_esame/nmap_password.lst -t 32 10.10.10.149 ssh
+  hydra -s 4322 -V -l root -P /home/kali/Desktop/analis_esame/nmap_password.lst -t 32 10.10.12.149 ssh
+ 
