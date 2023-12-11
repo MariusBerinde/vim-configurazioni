@@ -18,3 +18,4 @@ hi Visual cterm=none ctermbg=darkgrey ctermfg=cyan
 nnoremap <C-à> <C-]>
 nmap n nzz
 map ù $
+set termguicolors
