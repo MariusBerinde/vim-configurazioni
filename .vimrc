@@ -4,6 +4,8 @@ set autoindent
 set cursorline
 nmap ò {
 nmap à }
+nmap ò {
+nmap ù `  
 set title
 set visualbell
 call plug#begin()
