@@ -19,7 +19,6 @@ hi Visual cterm=none ctermbg=darkgrey ctermfg=cyan
 
 nnoremap <C-à> <C-]>
 nmap n nzz
-map ù $
 set termguicolors
 set cursorline                                                                                                                                 
 " Imposta il colore di sfondo della sottolineatura del cursore con un'opacità del 50%
